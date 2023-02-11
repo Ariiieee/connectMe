@@ -22,7 +22,7 @@ const Login = () => {
 			</div>
 			<div className="absolute flex flex-col justify-center items-center top-0 right-0 bottom-0 left-0 bg-blackOverlay">
 				<div className="p-5">
-					<img src={logo} alt="logo" className="w-64" />
+					<img src={logo} width="180px" alt="logo" />
 				</div>
 
 				<div className="shadow-2xl">
@@ -48,3 +48,4 @@ export default Login;
 
 //NOTE:  to check for tailwind css use tailwindcss docs
 //TODO: work on the logo from the logo site to makeit sharper and bigger from the site end
+//FIX: to fix this logo issue you need to use a logo that doesn't have a padding around it
